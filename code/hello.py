@@ -6,7 +6,7 @@ last_name = "Doe"
 hello = 'Hello! ' * 4
 # Using +
 full_name = first_name + " " + last_name  # "Jane Doe"
-
+print(full_name)
 # Using f-strings (modern Python way!)
 greeting = f"{hello}, {first_name}!"  # "Hello, Jane!"
 print(greeting)
