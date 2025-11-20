@@ -6,11 +6,13 @@ sqrt_ours = math.sqrt(21)
 print(f"{sqrt_ours:.2f}")
 
 sqrt_root = sqrt(21)
-print(f'{sqrt_root:.2f}')
+print(f"{sqrt_root:.2f}")
 
-radius_of_circle = 3 
-area_of_circle = pi * pow(radius_of_circle,2)
-print(f"The area of a circle with a {radius_of_circle} is {area_of_circle:.2f} squared units")
+radius_of_circle = 3
+area_of_circle = pi * pow(radius_of_circle, 2)
+print(
+    f"The area of a circle with a {radius_of_circle} is {area_of_circle:.2f} squared units"
+)
 # cube_root = math.cbrt(21)
 # print(cube_root)
 

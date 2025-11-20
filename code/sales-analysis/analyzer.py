@@ -4,7 +4,7 @@ import os
 print("Current directory:", os.getcwd())
 
 # Check if our data file exists
-#data_path = "data/sales.csv"
+# data_path = "data/sales.csv"
 # folders above the current path
 data_path = "../data/austin_weather_2025-11-14_2025-11-21.csv"
 if os.path.exists(data_path):

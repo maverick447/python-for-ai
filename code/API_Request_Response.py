@@ -1,13 +1,15 @@
 import requests
 
+
 def get_weather(latitude, longitude):
     url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current=temperature_2m&timezone=America/Chicago&temperature_unit=fahrenheit"
     # Make the request
     response = requests.get(url)
     data = response.json()
-    return data['current']['temperature_2m']
+    return data["current"]["temperature_2m"]
 
-# Austin time 
+
+# Austin time
 austin_latitude = 30.2672
 austin_longitude = -97.7431
 
@@ -44,5 +46,5 @@ print(f"Chicago: {chicago_temp}°F")
 # print(type(data.keys()))
 # print(data.keys())
 
-# # aim is to get temperature 
+# # aim is to get temperature
 # print(data["current"]['temperature_2m'])
