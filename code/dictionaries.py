@@ -65,4 +65,5 @@ print(array)
 array = person.items()
 print(type(array))
 print(array)
+print(array[3])
 
