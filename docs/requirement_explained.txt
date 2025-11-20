@@ -1,0 +1,5 @@
+(.venv) ramapra_mini@mini python-for-ai % pip freeze > requirements.txt
+this creates a list of libraries and are the the requirements and created a file titled requirements.txt
+
+(.venv) ramapra_mini@mini python-for-ai % pip install -r requirements.txt
+This takes the requirements as a input and ensures that the workspace is in sync
