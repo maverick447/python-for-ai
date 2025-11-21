@@ -1,0 +1,36 @@
+to install uv 
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv --version 
+uv pip install pandas
+# ⚡ Takes 1-2 seconds
+
+example on cmd line 
+# Everything in one command
+uv init
+uv add requests pandas numpy
+# Time: ~3 seconds Commands: 2
+
+eg
+
+uv 
+# will enlist all cmds 
+in any browser type uv python
+
+
+# Create new project
+uv init my-project
+
+# magically created a folder titled my-project
+/Volumes/Drive/code/Python/my-project 
+    main.py 
+    pyproject.toml 
+    README.md
+
+# Add packages
+uv add requests pandas
+
+# Install from existing project
+uv sync
+
+# Run Python
+uv run python script.py
